@@ -151,8 +151,8 @@ class Molecule(nx.Graph):
             pass
 
         #print(colors) 
-        plt.figure(figsize=(25, 25))
-        nx.draw_networkx_nodes(self, position, node_size = 200, node_color = colors)
+        plt.figure(figsize=(8, 8))
+        nx.draw_networkx_nodes(self, position, node_size = 1000, node_color = colors)
         nx.draw_networkx_edges(self, position, width = 1)
         nx.draw_networkx_edge_labels(self, position, edge_labels)
         nx.draw_networkx_labels(self, position, labels, font_color= 'orange') 
