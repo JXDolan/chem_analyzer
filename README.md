@@ -1,2 +1,2 @@
 # chem_analyzer
-represent molecular as Networkx graphs, generate molecular fingerprints and check for substructures
+create a graph representation of a molecule by providing an sdf file or through the command line, generate molecular fingerprints and check for substructures
