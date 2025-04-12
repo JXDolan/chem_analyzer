@@ -16,8 +16,8 @@ create a graph representation of a molecule by providing an sdf file or through 
 
 6. perfom substructure search from terminal constructing by sdf:
     python molecule.py\
-    --substructure_sdf "sdf/AAQOQKQBGPPFNS-UHFFFAOYSA-N.sdf" \
+    --substructure_sdf "AAQOQKQBGPPFNS-UHFFFAOYSA-N.sdf" \
     --substructure_sdf_include_h "False"\
-    --molecule_sdf "sdf/AAQOQKQBGPPFNS-UHFFFAOYSA-N.sdf" \
+    --molecule_sdf "AAQOQKQBGPPFNS-UHFFFAOYSA-N.sdf" \
     --molecule_sdf_include_h "True" 
 
