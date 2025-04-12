@@ -2,10 +2,10 @@
 create a graph representation of a molecule by providing an sdf file or through the command line, generate molecular fingerprints and check for substructures
 
 ## Python Usage
-1. clone repository: "git clone git@github.com:msse-chem274A-2024/final-assignment-JXDolan.git" 
-2. create environments: "make environment"
-3. activate environment: "conda activate chem_analyzer_env"
-4. run pytests: "make tests"
+1. clone repository: `git clone git@github.com:msse-chem274A-2024/final-assignment-JXDolan.git`
+2. create environments: `make environment`
+3. activate environment: `conda activate chem_analyzer_env`
+4. run pytests: `make tests`
 
 5. perform substructure search from terminal constructing by lists: 
         python molecule.py \
