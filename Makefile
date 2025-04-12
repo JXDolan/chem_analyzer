@@ -4,4 +4,4 @@ environment:
 	conda env create -f environment.yaml
 
 tests:
-	pytest -v test_molecule_final.py
+	pytest -v test_molecule.py
